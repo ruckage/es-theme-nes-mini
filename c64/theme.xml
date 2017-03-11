@@ -1,0 +1,45 @@
+<theme>
+    <formatVersion>3</formatVersion>
+    <include>./../nesmini.xml</include>
+	<include>./../boxart_type/portrait_std.xml</include>
+
+	<view name="system">
+
+		<image name="background" extra="true">
+			<path>./system_art.png</path>
+		</image>
+
+		<image name="logo">
+			<path>./logo.png</path>
+        </image>
+			
+	</view>
+
+	<view name="basic, detailed">
+	
+		<image name="logo">
+			<path>./logo.png</path>
+			<pos>2 2</pos>
+			<maxSize>0.1 0.1</maxSize>
+			<origin>0 0.5</origin>
+		</image>
+	
+		<rating name="md_rating">
+			<filledPath>./../art/heart_filled.png</filledPath>
+			<unfilledPath>./../art/heart_empty.png</unfilledPath>
+		</rating>
+		
+		<textlist name="gamelist">
+			<selectorColor>0066ff</selectorColor>
+			<selectedColor>b2d1ff</selectedColor>
+			<primaryColor>757575</primaryColor>
+			<secondaryColor>0066ff</secondaryColor>
+		</textlist>
+		
+		<image name="background" extra="true">
+			<path>./menu_background.png</path>
+		</image>
+
+	</view>
+	
+</theme>

@@ -1,0 +1,184 @@
+<!--
+theme name:		nesmini
+version:		1.0
+author:			ruckage
+-->
+
+<theme>
+    <formatVersion>3</formatVersion>
+
+	<view name="system">
+		<helpsystem name="help">
+			<pos>2 2</pos>
+			<textColor>f11c00</textColor>
+			<iconColor>f11c00</iconColor>
+			<fontPath>./art/TinyUnicode.ttf</fontPath>
+			<fontSize>0.06666666666666</fontSize>
+		</helpsystem>
+	
+		<image name="background" extra="true">
+			<size>0 1</size>
+			<pos>0.5 0.5</pos>
+			<origin>0.5 0.5</origin>
+		</image>
+		
+		<image name="system_help" extra="true">
+			<path>./art/system_help.png</path>
+			<size>1 0</size>
+			<pos>0 1</pos>
+			<origin>0 1</origin>
+		</image>
+		
+	</view>
+
+    <view name="basic, detailed">
+	
+		<image name="background" extra="true">
+			<size>0 1</size>
+			<pos>0.5 0.5</pos>
+			<origin>0.5 0.5</origin>
+		</image>
+		
+		<image name="gamelist_help" extra="true">
+			<path>./art/gamelist_help.png</path>
+			<size>1 0</size>
+			<pos>0 1</pos>
+			<origin>0 1</origin>
+		</image>
+	
+		<helpsystem name="help">
+			<pos>2 2</pos>
+			<textColor>f11c00</textColor>
+			<iconColor>f11c00</iconColor>
+			<fontPath>./art/TinyUnicode.ttf</fontPath>
+			<fontSize>0.06666666666666</fontSize>
+		</helpsystem>
+		
+		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount">
+			<color>393a3b</color>
+			<forceUppercase>1</forceUppercase>
+			<fontSize>0.02</fontSize>
+			<size>0.2 0.2</size>
+			<pos>1 1</pos>
+		</text>
+		
+		<text name="md_rating, md_developer, md_publisher, md_genre, md_players, md_playcount, md_releasedate">
+			<forceUppercase>1</forceUppercase>
+			<fontSize>0.0592592592592593</fontSize>
+			<color>ffffff</color>
+		</text>
+		
+		<text name="md_players, md_playcount">
+			<fontPath>./art/NESCyrillic_gamelist.ttf</fontPath>
+		</text>
+		
+		<text name="md_playcount">
+			<alignment>center</alignment>
+			<pos>0.8270833333333333 0.2222222222222222</pos>
+			<size>0.0895833333333333 0.0259259259259259</size>
+		</text>
+
+		<text name="md_players">
+			<alignment>left</alignment>
+			<pos>0.93125 0.2</pos>
+			<size>0.01875 0.0407407407407407</size>
+		</text>
+				
+		<text name="md_developer, md_publisher, md_genre">
+			<fontPath>./art/TinyUnicode.ttf</fontPath>
+			<alignment>center</alignment>
+		</text>
+		
+		<text name="md_genre">
+			<pos>0.7333333333333333 0.3037037037037037</pos>
+			<size>0.2416666666666667 0.0185185185185185</size>
+		</text>
+
+		<text name="md_publisher">
+			<pos>0.7333333333333333 0.3703703703703704</pos>
+			<size>0.2416666666666667 0.0185185185185185</size>
+		</text>
+		
+		<text name="md_developer">
+			<pos>0.7333333333333333 0.437037037037037</pos>
+			<size>0.2416666666666667 0.0185185185185185</size>
+		</text>
+		
+		<text name="md_description">
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./art/TinyUnicode.ttf</fontPath>
+			<fontSize>0.0444444444444444</fontSize>
+			<size>0.2375 0.3259259259259259</size>
+			<pos>0.7395833333333333 0.4740740740740741</pos>
+			<alignment>center</alignment>
+			<lineSpacing>0.625</lineSpacing>
+			<color>757575</color>
+		</text>
+		
+		<datetime name="md_lastplayed">
+		<pos>1 1</pos>
+		<size>0.2 0.2</size>
+		</datetime>
+		
+		<datetime name="md_releasedate">
+			<fontPath>./art/TinyUnicode.ttf</fontPath>
+			<pos>0.86875 0.3444444444444444</pos>
+			<size>0.2166666666666667 0.0185185185185185</size>
+			<color>c8c8c8</color>
+		</datetime>
+		
+		<rating name="md_rating">
+			<pos>0.7375 0.2296296296296296</pos>
+			<size>0.0166666666666667 0.0296296296296296</size>
+		</rating>
+		
+		<textlist name="gamelist">
+			<forceUppercase>0</forceUppercase>
+			<scrollSound>./sounds/se_sys_cursor.wav</scrollSound>
+			<fontPath>./art/NESCyrillic_gamelist.ttf</fontPath>
+			<pos>0.2958333333333333 0.2145</pos>
+			<size>0.4083333333333333 0.5481481481481481</size>
+			<alignment>left</alignment>
+			<horizontalMargin>0.0083333333333333</horizontalMargin>
+			<fontSize>0.0592592592592593</fontSize>
+			<lineSpacing>2.046511627906977</lineSpacing>
+		</textlist>
+
+		
+		<!-- Sounds
+		<sound name="systemscroll">
+			<path>./art/systemscroll.wav</path>
+		</sound>
+		
+		<sound name="systemselect">
+			<path>./art/systemscroll.wav</path>
+		</sound>
+		
+
+		
+		<sound name="back">
+			<path>./art/back.wav</path>
+		</sound>
+		
+		<sound name="launch">
+			<path>./art/launch.wav</path>
+		</sound>
+		
+		<sound name="menuopen">
+			<path>./art/menu.wav</path>
+		</sound>
+		 -->
+		 
+		 <sound name="launch">
+			<path>./sounds/se_sys_click_game.wav</path>
+		</sound>
+		 
+	</view>
+
+	<view name="basic">
+	</view>
+
+	<view name="detailed">
+	</view>
+	
+</theme>

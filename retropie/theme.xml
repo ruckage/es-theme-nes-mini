@@ -1,0 +1,106 @@
+<theme>
+    <formatVersion>3</formatVersion>
+    <include>./../nesmini.xml</include>
+	<include>./../boxart_type/retropie.xml</include>
+
+	<view name="system">
+
+		<image name="background" extra="true">
+			<path>./system_art.png</path>
+		</image>
+
+		<image name="logo">
+			<path>./logo.png</path>
+        </image>
+		
+		<helpsystem name="help">
+			<textColor>f11c00</textColor>
+			<iconColor>f11c00</iconColor>
+		</helpsystem>
+		
+	</view>
+
+	<view name="basic, detailed">
+		<image name="logo">
+			<path>./logo.png</path>
+			<pos>2 2</pos>
+			<maxSize>0.1 0.1</maxSize>
+			<origin>0 0.5</origin>
+		</image>
+		
+		
+	</view>
+
+	<view name="basic">
+	
+	</view>
+
+	<view name="basic, detailed">
+
+		<text name="md_rating, md_developer, md_publisher, md_genre, md_players, md_playcount, md_releasedate">
+			<color>d7e894</color>
+		</text>
+		
+		<text name="md_rating, md_developer, md_publisher, md_genre, md_players, md_playcount, md_releasedate">
+			<color>d7e894</color>
+		</text>
+			
+		<text name="md_playcount">
+			<alignment>center</alignment>
+			<pos>2 2</pos>
+			<size>0.07265625 0.0458333333333333</size>
+		</text>
+
+		<text name="md_players">
+			<alignment>left</alignment>
+			<pos>2 2</pos>
+			<size>0.01875 0.0458333333333333</size>
+		</text>
+		
+		<text name="md_genre">
+			<pos>2 2</pos>
+			<size>0.234375 0.0375</size>
+		</text>
+
+		<text name="md_publisher">
+			<pos>2 2</pos>
+			<size>0.234375 0.0375</size>
+		</text>
+		
+		<text name="md_developer">
+			<pos>2 2</pos>
+			<size>0.234375 0.0375</size>
+		</text>
+		
+		<datetime name="md_releasedate">
+			<pos>2 2</pos>
+			<color>aec440</color>
+		</datetime>
+		
+		<rating name="md_rating">
+			<pos>2 2</pos>
+			<size>0.01875 0.0333333333333333</size>
+			<filledPath>./../art/heart_filled.png</filledPath>
+			<unfilledPath>./../art/heart_empty.png</unfilledPath>
+		</rating>
+		
+		<text name="md_description">
+			<size>0.2375 0.3555555555555556</size>
+			<pos>0.7395833333333333 0.3555555555555556</pos>
+			<color>757575</color>
+		</text>
+		
+		<textlist name="gamelist">
+			<selectorColor>00aa00</selectorColor>
+			<selectedColor>ffff66</selectedColor>
+			<primaryColor>757575</primaryColor>
+			<secondaryColor>00aa00</secondaryColor>
+		</textlist>
+		
+		<image name="background" extra="true">
+			<path>./menu_background.png</path>
+		</image>
+
+	</view>
+	
+</theme>

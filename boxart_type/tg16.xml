@@ -1,0 +1,25 @@
+<!--
+theme name:		nesmini
+version:		1.0
+author:			ruckage
+-->
+
+<theme>
+    <formatVersion>3</formatVersion>
+
+    <view name="basic, detailed">
+		<image name="md_image">
+			<pos>0.025 0.2407407407407407</pos>
+ 			<size>0.2416666666666667 0.5185185185185185</size>
+			<origin>0 0</origin>
+		</image>
+		
+		<image name="boxart_frame" extra="true">
+			<pos>0.0166666666666667 0.2259259259259259</pos>
+ 			<size>0.2583333333333333 0.5481481481481481</size>
+			<origin>0 0</origin>
+			<path>./tg16.png</path>
+		</image>
+	</view>
+
+</theme>

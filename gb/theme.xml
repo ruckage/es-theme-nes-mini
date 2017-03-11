@@ -1,0 +1,57 @@
+<theme>
+    <formatVersion>3</formatVersion>
+    <include>./../nesmini.xml</include>
+	<include>./../boxart_type/gb.xml</include>
+
+	<view name="system">
+
+		<image name="background" extra="true">
+			<path>./system_art.png</path>
+		</image>
+
+		<image name="logo">
+			<path>./logo.png</path>
+        </image>
+			
+	</view>
+
+	<view name="basic, detailed">
+	
+		<image name="logo">
+			<path>./logo.png</path>
+			<pos>2 2</pos>
+			<maxSize>0.1 0.1</maxSize>
+			<origin>0 0.5</origin>
+		</image>
+		
+		<text name="md_rating, md_developer, md_publisher, md_genre, md_players, md_playcount, md_releasedate">
+			<color>d7e894</color>
+		</text>
+		
+		<datetime name="md_releasedate">
+			<color>aec440</color>
+		</datetime>
+		
+		<text name="md_description">
+		<color>204631</color>
+		</text>
+	
+		<rating name="md_rating">
+			<filledPath>./../art/heart_filled_gb.png</filledPath>
+			<unfilledPath>./../art/heart_empty_gb.png</unfilledPath>
+		</rating>
+		
+		<textlist name="gamelist">
+			<selectorColor>d7e894</selectorColor>
+			<selectedColor>204631</selectedColor>
+			<primaryColor>527f39</primaryColor>
+			<secondaryColor>d7e894</secondaryColor>
+		</textlist>
+		
+		<image name="background" extra="true">
+			<path>./menu_background.png</path>
+		</image>
+
+	</view>
+	
+</theme>
