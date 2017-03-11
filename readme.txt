@@ -1,6 +1,6 @@
 Theme designed by Ruckage
-Version 1.31
-10/03/2017
+Version 1.315
+11/03/2017
 
 Theme based on the look of the menus used on the NES Classic.
 Designed for use at 1080p.
@@ -43,7 +43,7 @@ Sega Cd
 
 
 2/03/2017
-Fixed system logos not showing on latest verson of Retropie.
+Fixed system logos not showing on latest version of Retropie.
 Updated gamelist font so that special characters are displayed (accented characters will only show as standard characters).
 Updated description font to add alternative apostrophe character.
 
@@ -54,4 +54,6 @@ Added 12 new systems
 10/03/2017 
 Changed folder colors to match selector bar color as they were black on a black background.  Edited the font to replace the @ symbol with a folder icon, now if you name you folders with an @ followed by a space and then the folder name it will display a little folder icon on the game list. eg instead of a folder named 'Puzzle' you would name the folder '@ Puzzle'.
 
+11/03/2017 
+Updated gamelist font so that the folder icon now replaces the # symbol.  This means if you name your folder "# Puzzle" it will be shown with a folder icon and all fodlers will appear at the top of the list when sorted alphabetically.
 
