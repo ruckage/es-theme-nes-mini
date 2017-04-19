@@ -1,0 +1,12 @@
+<!--
+theme name:		nesmini
+version:		1.0
+author:			ruckage
+-->
+
+<theme>
+    <formatVersion>3</formatVersion>
+
+	<include>./layouts/a.xml</include>
+
+</theme>

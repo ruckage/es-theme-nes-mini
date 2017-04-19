@@ -4,9 +4,13 @@ version:		1.0
 author:			ruckage
 -->
 
+
+
 <theme>
     <formatVersion>3</formatVersion>
 
+	<include>./layout.xml</include>
+	
 	<view name="system">
 		<helpsystem name="help">
 			<pos>2 2</pos>
@@ -38,7 +42,7 @@ author:			ruckage
 			<pos>0.5 0.5</pos>
 			<origin>0.5 0.5</origin>
 		</image>
-		
+
 		<image name="gamelist_help" extra="true">
 			<path>./art/gamelist_help.png</path>
 			<size>1 0</size>
@@ -74,43 +78,26 @@ author:			ruckage
 		
 		<text name="md_playcount">
 			<alignment>center</alignment>
-			<pos>0.8270833333333333 0.2222222222222222</pos>
-			<size>0.0895833333333333 0.0259259259259259</size>
+			<size>0.09375 0.0333333333333333</size>
 		</text>
 
 		<text name="md_players">
 			<alignment>left</alignment>
-			<pos>0.93125 0.2</pos>
 			<size>0.01875 0.0407407407407407</size>
 		</text>
 				
 		<text name="md_developer, md_publisher, md_genre">
 			<fontPath>./art/TinyUnicode.ttf</fontPath>
+			<size>0.25 0.0333333333333333</size>
 			<alignment>center</alignment>
-		</text>
-		
-		<text name="md_genre">
-			<pos>0.7333333333333333 0.3037037037037037</pos>
-			<size>0.2416666666666667 0.0185185185185185</size>
-		</text>
-
-		<text name="md_publisher">
-			<pos>0.7333333333333333 0.3703703703703704</pos>
-			<size>0.2416666666666667 0.0185185185185185</size>
-		</text>
-		
-		<text name="md_developer">
-			<pos>0.7333333333333333 0.437037037037037</pos>
-			<size>0.2416666666666667 0.0185185185185185</size>
 		</text>
 		
 		<text name="md_description">
 			<forceUppercase>1</forceUppercase>
 			<fontPath>./art/TinyUnicode.ttf</fontPath>
 			<fontSize>0.0444444444444444</fontSize>
-			<size>0.2375 0.3259259259259259</size>
-			<pos>0.7395833333333333 0.4740740740740741</pos>
-			<alignment>center</alignment>
+			<size>0.2447916666666667 0.437037037037037</size>
+			<alignment>left</alignment>
 			<lineSpacing>0.625</lineSpacing>
 			<color>757575</color>
 		</text>
@@ -122,13 +109,11 @@ author:			ruckage
 		
 		<datetime name="md_releasedate">
 			<fontPath>./art/TinyUnicode.ttf</fontPath>
-			<pos>0.86875 0.3444444444444444</pos>
-			<size>0.2166666666666667 0.0185185185185185</size>
+			<size>0.25 0.0333333333333333</size>
 			<color>c8c8c8</color>
 		</datetime>
 		
 		<rating name="md_rating">
-			<pos>0.7375 0.2296296296296296</pos>
 			<size>0.0166666666666667 0.0296296296296296</size>
 		</rating>
 		
@@ -143,6 +128,10 @@ author:			ruckage
 			<fontSize>0.0592592592592593</fontSize>
 			<lineSpacing>2.046511627906977</lineSpacing>
 		</textlist>
+		
+		<image name="md_image">
+			<maxSize>0.2416666666666667 0.4296296296296296</maxSize>
+		</image>
 
 		
 		<!-- Sounds
@@ -180,5 +169,8 @@ author:			ruckage
 
 	<view name="detailed">
 	</view>
+	
+	
+	
 	
 </theme>

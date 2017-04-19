@@ -1,7 +1,7 @@
 <theme>
     <formatVersion>3</formatVersion>
     <include>./../nesmini.xml</include>
-	<include>./../boxart_type/gbc.xml</include>
+	
 
 	<view name="system">
 
@@ -39,6 +39,32 @@
 		<image name="background" extra="true">
 			<path>./menu_background.png</path>
 		</image>
+		
+
+	
+		<image name="left_window_border" extra="true">
+			<color>ff488988</color>
+		</image>
+
+		<image name="right_window_border" extra="true">
+			<color>ffff5f88</color>
+		</image>		
+		
+		<image name="player_box" extra="true">
+			<color>6da71e</color>		
+		</image>
+
+		<text name="publisher_label, developer_label, genre_label, rating_label, played_label" extra="true">
+			<color>6da71e</color>
+		</text>
+
+		<datetime name="md_releasedate">
+			<color>6da71e</color>
+		</datetime>	
+
+		
+		
+	
 
 	</view>
 	

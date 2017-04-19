@@ -1,0 +1,13 @@
+How to change the layout in the NES Mini theme.
+
+You are now able to choose from several different pre-defined layouts.  Please see the png file that is included titled ## LAYOUT GUIDE ##.png for all of the available options.
+
+To change the layout open the layout.xml file.
+
+Find the following line:
+
+	<include>./layouts/a.xml</include>
+	
+Change the letter 'a' to the letter corresponding the the layout of your choice (see ## LAYOUT GUIDE ##.png) and save the file.  When you restart Emulation Station the new layout will be active.
+
+Ruckage 2017

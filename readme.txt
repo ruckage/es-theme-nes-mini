@@ -1,11 +1,25 @@
 Theme designed by Ruckage
-Version 1.311
-11/03/2017
+Version 2
+19/04/2017
 
-Theme based on the look of the menus used on the NES Classic.
-Designed for use at 1080p.
+Theme based on and inspired by the look of the menus used on the NES Classic.
+Designed for use at 1080p only.
 
-Currently this theme supports
+--------------------------------------------------------------------------------
+
+License
+
+This theme is being actively developed, a great deal of work has been put into the theme so please do not use the graphics I have created in other projects (with the exception of any graphics that are an exact copy of of those from the real 'NES classic'/'Famicom mini' menu).
+
+You are free to modify the theme for your personal use only - please do not share modified versions of this theme.
+
+Commercial distribution is prohibited
+
+If in doubt please ask in the dedictated topic at the retropie forum: https://retropie.org.uk/forum/topic/8391/cardboard-mini-nes-nes-mini-and-famicom-mini-themes
+
+-------------------------------------------------------------------------------  
+
+Currently this theme supports:
 
 NES
 Atari 2600
@@ -40,7 +54,12 @@ Wonderswan Color
 Final Burn Alpha
 Nintendo 64
 Sega Cd
+Odyssey 2
+Nintendo DS
+Arcade
 
+19/04/2017
+Large number of changes.  Layout has been changed to support preview art of any size/aspect ratio without stretching.  Additionally a new system has been implemented to allow the end user to pick from a selection of 24 different metadata layouts.  3 new systems have been added, Odyssey 2, Nintendo DS, and Arcade.
 
 2/03/2017
 Fixed system logos not showing on latest version of Retropie.

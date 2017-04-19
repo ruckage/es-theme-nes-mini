@@ -1,7 +1,7 @@
 <theme>
     <formatVersion>3</formatVersion>
     <include>./../nesmini.xml</include>
-	<include>./../boxart_type/retropie.xml</include>
+	
 
 	<view name="system">
 
@@ -84,11 +84,6 @@
 			<unfilledPath>./../art/heart_empty.png</unfilledPath>
 		</rating>
 		
-		<text name="md_description">
-			<size>0.2375 0.3555555555555556</size>
-			<pos>0.7395833333333333 0.3555555555555556</pos>
-			<color>757575</color>
-		</text>
 		
 		<textlist name="gamelist">
 			<selectorColor>00aa00</selectorColor>
