@@ -12,13 +12,23 @@
 		<image name="logo">
 			<path>./logo.png</path>
         </image>
-		
-		<helpsystem name="help">
-			<textColor>f11c00</textColor>
-			<iconColor>f11c00</iconColor>
-		</helpsystem>
-		
+			
 	</view>
+	
+	<feature supported="carousel">
+
+		<view name="system">
+			<image name="logo">
+				<path>./carousel_logo.png</path>
+			</image>
+			
+			<image name="carousel_bar" extra="true">
+				<color>757575</color>
+			</image>
+		
+		</view>
+
+	</feature>
 
 	<view name="basic, detailed">
 		<image name="logo">
@@ -96,6 +106,10 @@
 			<path>./menu_background.png</path>
 		</image>
 
+		<image name="missing_art" extra="true">
+			<pos>2 2</pos>
+		</image>	
+		
 	</view>
 	
 </theme>

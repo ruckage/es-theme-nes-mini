@@ -1,6 +1,6 @@
 Theme designed by Ruckage
-Version 2
-19/04/2017
+Version 2.1
+21/05/2017
 
 Theme based on and inspired by the look of the menus used on the NES Classic.
 Designed for use at 1080p only.
@@ -9,7 +9,7 @@ Designed for use at 1080p only.
 
 License
 
-This theme is being actively developed, a great deal of work has been put into the theme so please do not use the graphics I have created in other projects (with the exception of any graphics that are an exact copy of of those from the real 'NES classic'/'Famicom mini' menu).
+This theme is being actively developed, a great deal of work has been put into the theme and art so please do not use the graphics I have created in other projects (with the exception of any graphics that are an exact copy of of those from the real 'NES classic'/'Famicom mini' menu).
 
 You are free to modify the theme for your personal use only - please do not share modified versions of this theme.
 
@@ -57,6 +57,21 @@ Sega Cd
 Odyssey 2
 Nintendo DS
 Arcade
+Daphne
+PSP
+SG-1000
+Atari Lynx
+Ports
+Virtual Boy
+
+20/05/2017
+Another big update.  The carousel has been themed and pixel art icon has been drawn for every system.  To see see the updated carousel you will need to update to the very latest version of Retropie via the Retropie setup script https://github.com/retropie/retropie-setup/wiki/updating-retropie
+On older versions of retropie the carousel will revert to the old style.
+
+6 new systems have been added Daphne,PSP, SG-1000, Atari Lynx, Ports, and Virtual Boy.
+
+'OUR BOX ART IS IN ANOTHER CASTLE' image has been reduced in size to hopefully prevent it showing behind some artwork and has been completely removed from the config screen.
+
 
 19/04/2017
 Large number of changes.  Layout has been changed to support preview art of any size/aspect ratio without stretching.  Additionally a new system has been implemented to allow the end user to pick from a selection of 24 different metadata layouts.  3 new systems have been added, Odyssey 2, Nintendo DS, and Arcade.

@@ -14,6 +14,21 @@
         </image>
 			
 	</view>
+	
+	<feature supported="carousel">
+
+		<view name="system">
+			<image name="logo">
+				<path>./carousel_logo.png</path>
+			</image>
+			
+			<image name="carousel_bar" extra="true">
+				<color>fa0300</color>
+			</image>
+		
+		</view>
+
+	</feature>
 
 	<view name="basic, detailed">
 	

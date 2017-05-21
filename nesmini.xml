@@ -10,6 +10,7 @@ author:			ruckage
     <formatVersion>3</formatVersion>
 
 	<include>./layout.xml</include>
+
 	
 	<view name="system">
 		<helpsystem name="help">
@@ -34,7 +35,42 @@ author:			ruckage
 		</image>
 		
 	</view>
+	
+	<feature supported="carousel">
 
+		<view name="system">
+
+			<carousel name="systemcarousel">
+				<type>horizontal</type>
+				<pos>-0.0 0.3</pos>
+				<size>1.0 0.4</size>
+				<color>00000000</color>
+				<logoScale>1</logoScale>
+				<logoSize>0.1916666666666667 0.3703703703703704</logoSize>
+				<maxLogoCount>5</maxLogoCount>
+			</carousel>
+
+			<text name="systemInfo">
+				<pos>0.00 0.2222222222222222</pos>
+				<size>1 0.050</size>
+				<backgroundColor>00000000</backgroundColor>
+				<color>FFFFFF</color>
+				<fontPath>./art/NESCyrillic_gamelist.ttf</fontPath>
+				<fontSize>0.0592592592592593</fontSize>
+			</text>
+			
+		<image name="carousel_bar" extra="true">
+			<path>./art/carousel_bar.png</path>
+			<size>1 0</size>
+			<pos>0 0.2185185185185185</pos>
+			<origin>0 0</origin>
+		</image>			
+
+		</view>
+
+	</feature>
+	
+	
     <view name="basic, detailed">
 	
 		<image name="background" extra="true">
