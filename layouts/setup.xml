@@ -34,7 +34,7 @@ author:			ruckage
 
 	</feature>	
 
-    <view name="basic, detailed">
+    <view name="basic, detailed, video">
 			
 		<image name="background" extra="true">
 
