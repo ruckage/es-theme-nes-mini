@@ -23,13 +23,13 @@ author:			ruckage
 	
 		<image name="background" extra="true">
 			<size>0 1</size>
-			<pos>0.5 0.5</pos>
-			<origin>0.5 0.5</origin>
+			<pos>0 0.5</pos>
+			<origin>0 0.5</origin>
 		</image>
 		
 		<image name="system_help" extra="true">
 			<path>./art/system_help.png</path>
-			<size>1 0</size>
+			<size>0 0.1074074074074074</size>
 			<pos>0 1</pos>
 			<origin>0 1</origin>
 		</image>
@@ -42,17 +42,11 @@ author:			ruckage
 
 			<carousel name="systemcarousel">
 				<type>horizontal</type>
-				<pos>-0.0 0.3</pos>
-				<size>1.0 0.4</size>
 				<color>00000000</color>
 				<logoScale>1</logoScale>
-				<logoSize>0.1916666666666667 0.3703703703703704</logoSize>
-				<maxLogoCount>5</maxLogoCount>
 			</carousel>
 
 			<text name="systemInfo">
-				<pos>0.00 0.2222222222222222</pos>
-				<size>1 0.050</size>
 				<backgroundColor>00000000</backgroundColor>
 				<color>FFFFFF</color>
 				<fontPath>./art/NESCyrillic_gamelist.ttf</fontPath>
@@ -61,9 +55,7 @@ author:			ruckage
 			
 		<image name="carousel_bar" extra="true">
 			<path>./art/carousel_bar.png</path>
-			<size>1 0</size>
-			<pos>0 0.2185185185185185</pos>
-			<origin>0 0</origin>
+			<origin>0.5 0</origin>
 		</image>			
 
 		</view>
@@ -75,13 +67,13 @@ author:			ruckage
 	
 		<image name="background" extra="true">
 			<size>0 1</size>
-			<pos>0.5 0.5</pos>
-			<origin>0.5 0.5</origin>
+			<pos>0 0.5</pos>
+			<origin>0 0.5</origin>
 		</image>
 
 		<image name="gamelist_help" extra="true">
 			<path>./art/gamelist_help.png</path>
-			<size>1 0</size>
+			<size>0 0.1074074074074074</size>
 			<pos>0 1</pos>
 			<origin>0 1</origin>
 		</image>
@@ -111,20 +103,9 @@ author:			ruckage
 		<text name="md_players, md_playcount">
 			<fontPath>./art/NESCyrillic_gamelist.ttf</fontPath>
 		</text>
-		
-		<text name="md_playcount">
-			<alignment>center</alignment>
-			<size>0.09375 0.0333333333333333</size>
-		</text>
-
-		<text name="md_players">
-			<alignment>left</alignment>
-			<size>0.01875 0.0407407407407407</size>
-		</text>
 				
 		<text name="md_developer, md_publisher, md_genre">
 			<fontPath>./art/TinyUnicode.ttf</fontPath>
-			<size>0.25 0.0333333333333333</size>
 			<alignment>center</alignment>
 		</text>
 		
@@ -157,17 +138,12 @@ author:			ruckage
 			<forceUppercase>0</forceUppercase>
 			<scrollSound>./sounds/se_sys_cursor.wav</scrollSound>
 			<fontPath>./art/NESCyrillic_gamelist.ttf</fontPath>
-			<pos>0.2958333333333333 0.2145</pos>
-			<size>0.4083333333333333 0.5481481481481481</size>
 			<alignment>left</alignment>
 			<horizontalMargin>0.0083333333333333</horizontalMargin>
 			<fontSize>0.0592592592592593</fontSize>
-			<lineSpacing>2.046511627906977</lineSpacing>
 		</textlist>
 		
-		<image name="md_image">
-			<maxSize>0.2416666666666667 0.4296296296296296</maxSize>
-		</image>
+
 
 		
 		<!-- Sounds

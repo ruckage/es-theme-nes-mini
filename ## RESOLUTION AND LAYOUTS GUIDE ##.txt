@@ -1,0 +1,27 @@
+How to change the supported resolution/aspect ratio in the NES Mini theme.
+--------------------------------------------------------------------------
+The theme now supports various resolutions including 4x3 resolutions.
+
+To change the Resolution open the layout.xml file.
+
+Find the following line:
+
+	<include>./layouts/1920x1080.xml.xml</include>
+	
+Change 1920x1080 to your desired resolution (valid options are 1920x1080, 1280x720, 1440x1080, 1280x960, 1024x768, 800x600, 640x480, 320x240)
+
+
+
+How to change the layout in the NES Mini theme.
+-----------------------------------------------
+You are now able to choose from several different pre-defined layouts.  Please see the png file that is included titled ## LAYOUT GUIDE ##.png for all of the available options. (Layouts are not supported in 4x3 resolutions and will be ignored).
+
+To change the layout open the layout.xml file.
+
+Find the following line:
+
+	<include>./layouts/a.xml</include>
+	
+Change the letter 'a' to the letter corresponding the the layout of your choice (see ## LAYOUT GUIDE ##.png) and save the file.  When you restart Emulation Station the new layout will be active.
+
+Ruckage 2017

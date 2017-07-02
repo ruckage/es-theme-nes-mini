@@ -1,6 +1,6 @@
 Theme designed by Ruckage
-Version 2.1
-21/05/2017
+Version 2.2
+02/07/2017
 
 Theme based on and inspired by the look of the menus used on the NES Classic.
 Designed for use at 1080p only.
@@ -63,6 +63,9 @@ SG-1000
 Atari Lynx
 Ports
 Virtual Boy
+
+02/07/2017
+Fixed gamelist issues in the latest version of ES.  Added support for various resolutions including 4x3 resolutions (see ## RESOLUTION AND LAYOUTS GUIDE ##.txt for instructions).
 
 20/05/2017
 Another big update.  The carousel has been themed and pixel art icon has been drawn for every system.  To see see the updated carousel you will need to update to the very latest version of Retropie via the Retropie setup script https://github.com/retropie/retropie-setup/wiki/updating-retropie
