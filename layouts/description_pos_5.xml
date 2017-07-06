@@ -6,7 +6,7 @@ author:			ruckage
 <theme>
     <formatVersion>3</formatVersion>
 
-    <view name="basic, detailed">
+    <view name="basic, detailed, video">
 		
 		<image name="right_window_box" extra="true">
 			<pos>0.9916666666666667 0.5</pos>

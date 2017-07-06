@@ -8,7 +8,7 @@ Find the following line:
 
 	<include>./layouts/1920x1080.xml</include>
 	
-Change 1920x1080 to your desired resolution (valid options are 1920x1080, 1280x720, 1440x1080, 1280x960, 1024x768, 800x600, 640x480, 320x240)
+Change 1920x1080 to your desired resolution (valid options are 1920x1080, 1366x768, 1280x720, ntsc, 1440x1080, 1280x960, 1024x768, 800x600, 640x480, 320x240)
 
 
 

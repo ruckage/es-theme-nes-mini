@@ -11,7 +11,7 @@ author:			ruckage
 	<include>./layouts/a.xml</include>
 	
 <!-- Choose your resolution -->	
-	<include>./layouts/1920x1080.xml</include> <!-- ENTER RESOLUTION: 1920x180 1280x720 1440x1080 1280x960 1024x768 800x600 640x480 320x240 -->
+	<include>./layouts/1920x1080.xml</include> <!-- ENTER RESOLUTION: 1920x1080 1366x768 1280x720 1440x1080 1280x960 1024x768 800x600 640x480 320x240 -->
 	
 
 </theme>

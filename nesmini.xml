@@ -22,14 +22,12 @@ author:			ruckage
 		</helpsystem>
 	
 		<image name="background" extra="true">
-			<size>0 1</size>
 			<pos>0 0.5</pos>
 			<origin>0 0.5</origin>
 		</image>
 		
 		<image name="system_help" extra="true">
 			<path>./art/system_help.png</path>
-			<size>0 0.1074074074074074</size>
 			<pos>0 1</pos>
 			<origin>0 1</origin>
 		</image>
@@ -62,18 +60,30 @@ author:			ruckage
 
 	</feature>
 	
+    <view name="video">
+		
+		<video name="md_video">
+			<showSnapshotNoVideo>true</showSnapshotNoVideo>
+			<showSnapshotDelay>true</showSnapshotDelay>
+			<delay>2</delay>			
+		</video>
+		
+		<image name="md_marquee">
+			<pos>2 2</pos>
+		</image>
+
+	</view>		
 	
-    <view name="basic, detailed">
+	
+    <view name="basic, detailed, video">
 	
 		<image name="background" extra="true">
-			<size>0 1</size>
 			<pos>0 0.5</pos>
 			<origin>0 0.5</origin>
 		</image>
 
 		<image name="gamelist_help" extra="true">
 			<path>./art/gamelist_help.png</path>
-			<size>0 0.1074074074074074</size>
 			<pos>0 1</pos>
 			<origin>0 1</origin>
 		</image>

@@ -30,7 +30,7 @@
 
 	</feature>
 
-	<view name="basic, detailed">
+	<view name="basic, detailed, video">
 		<image name="logo">
 			<path>./logo.png</path>
 			<pos>2 2</pos>
@@ -45,7 +45,7 @@
 	
 	</view>
 
-	<view name="basic, detailed">
+	<view name="basic, detailed, video">
 
 		<text name="md_rating, md_developer, md_publisher, md_genre, md_players, md_playcount, md_releasedate">
 			<color>d7e894</color>

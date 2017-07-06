@@ -6,7 +6,7 @@ author:			ruckage
 <theme>
     <formatVersion>3</formatVersion>
 
-    <view name="basic, detailed">
+    <view name="basic, detailed, video">
 
 		<image name="bar_4" extra="true">
 			<pos>0.9916666666666667 0.7074074074074074</pos>

@@ -41,7 +41,7 @@ author:			ruckage
 		</image>
 		
 	</view>
-	
+
 
     <view name="basic, detailed, video">
 	
@@ -191,6 +191,24 @@ author:			ruckage
 		</text>
 		
 		 
+	</view>
+
+    <view name="video">
+	
+		<image name="missing_art" extra="true">
+			<pos>2 2</pos>
+		</image>
+	
+		<image name="md_image">
+			<maxSize>0.3222222222222222 0.4296296296296296</maxSize>
+			<pos>2 2</pos>
+		</image>	
+		
+		<video name="md_video">
+			<maxSize>0.3222222222222222 0.4296296296296296</maxSize>
+			<pos>0.1944444444444444 0.5</pos>
+		</video>
+
 	</view>
 	
 </theme>
