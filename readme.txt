@@ -1,6 +1,6 @@
 Theme designed by Ruckage
-Version 2.21
-06/07/2017
+Version 2.22
+05/08/2017
 
 Theme based on and inspired by the look of the menus used on the NES Classic.
 Designed for use at 1080p only.
@@ -63,6 +63,12 @@ SG-1000
 Atari Lynx
 Ports
 Virtual Boy
+auto-favorites
+auto-lastplayed
+auto-allgames
+
+05/08/2017
+Added 3 systems to support the new game collections feature (auto-favorites, auto-lastplayed, auto-allgames.)
 
 06/07/2017
 Added video support. Added NTSC resolution. Added 1366x768 resolution. Added alternate SNES USA icon. Removed year box from system icons that don't need it.
