@@ -1,9 +1,8 @@
 Theme designed by Ruckage
-Version 2.22
-05/08/2017
+Version 2.23
+07/08/2017
 
 Theme based on and inspired by the look of the menus used on the NES Classic.
-Designed for use at 1080p only.
 
 --------------------------------------------------------------------------------
 
@@ -66,6 +65,12 @@ Virtual Boy
 auto-favorites
 auto-lastplayed
 auto-allgames
+Dreamcast
+Sega 32x
+
+
+07/08/2017
+Added 2 new systems - Dreamcast and Sega 32x.
 
 05/08/2017
 Added 3 systems to support the new game collections feature (auto-favorites, auto-lastplayed, auto-allgames.)

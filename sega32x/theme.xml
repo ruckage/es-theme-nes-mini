@@ -1,0 +1,80 @@
+<theme>
+    <formatVersion>3</formatVersion>
+    <include>./../nesmini.xml</include>
+	
+
+	<view name="system">
+
+		<image name="background" extra="true">
+			<path>./system_art.png</path>
+		</image>
+
+		<image name="logo">
+			<path>./logo.png</path>
+        </image>
+			
+	</view>
+	
+	<feature supported="carousel">
+
+		<view name="system">
+			<image name="logo">
+				<path>./carousel_logo.png</path>
+			</image>
+			
+			<image name="carousel_bar" extra="true">
+				<color>f7db00</color>
+			</image>
+		
+		</view>
+
+	</feature>
+
+	<view name="basic, detailed, video">
+	
+		<image name="logo">
+			<path>./logo.png</path>
+			<pos>2 2</pos>
+			<maxSize>0.1 0.1</maxSize>
+			<origin>0 0.5</origin>
+		</image>
+	
+		<rating name="md_rating">
+			<filledPath>./../art/heart_filled.png</filledPath>
+			<unfilledPath>./../art/heart_empty.png</unfilledPath>
+		</rating>
+		
+		<textlist name="gamelist">
+			<selectorColor>510e92</selectorColor>
+			<selectedColor>ffffff</selectedColor>
+			<primaryColor>757575</primaryColor>
+			<secondaryColor>510e92</secondaryColor>
+		</textlist>
+		
+		<image name="background" extra="true">
+			<path>./menu_background.png</path>
+		</image>
+		
+
+	
+	
+		
+		<image name="player_box" extra="true">
+			<color>f2cc00</color>		
+		</image>
+
+		<text name="publisher_label, developer_label, genre_label, rating_label, played_label" extra="true">
+			<color>f2cc00</color>
+		</text>
+
+		<datetime name="md_releasedate">
+			<color>f2cc00</color>
+		</datetime>	
+
+		
+		
+	
+
+	</view>
+	
+</theme>
