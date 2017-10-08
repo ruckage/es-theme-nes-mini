@@ -6,6 +6,7 @@ author:			ruckage
 
 <theme>
     <formatVersion>3</formatVersion>
+
 	
 <!-- Choose your layout -->
 	<include>./layouts/a.xml</include>

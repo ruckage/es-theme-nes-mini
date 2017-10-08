@@ -1,0 +1,120 @@
+<theme>
+    <formatVersion>3</formatVersion>
+    <include>./../nesmini.xml</include>
+	
+
+	<view name="system">
+
+		<image name="background" extra="true">
+			<path>./system_art.png</path>
+		</image>
+
+		<image name="logo">
+			<path>./logo.png</path>
+        </image>
+			
+	</view>
+	
+	<feature supported="carousel">
+
+		<view name="system">
+			<image name="logo">
+				<path>./carousel_logo.png</path>
+			</image>
+			
+			<image name="carousel_bar" extra="true">
+				<color>9cb296</color>
+			</image>
+		
+		</view>
+
+	</feature>
+
+	<view name="basic, detailed, video">
+	
+		<image name="logo">
+			<path>./logo.png</path>
+			<pos>2 2</pos>
+			<maxSize>0.1 0.1</maxSize>
+			<origin>0 0.5</origin>
+		</image>
+		
+		<text name="md_rating, md_developer, md_publisher, md_genre, md_players, md_playcount, md_releasedate">
+			<color>9cb296</color>
+		</text>
+		
+		<text name="md_players">
+			<color>000000</color>
+		</text>
+		
+		<datetime name="md_releasedate">
+			<color>9cb296</color>
+		</datetime>
+		
+		<text name="md_description">
+			<color>00000077</color>
+		</text>
+
+	
+		<rating name="md_rating">
+			<filledPath>./../art/heart_filled_white.png</filledPath>
+			<unfilledPath>./../art/heart_empty_white.png</unfilledPath>
+			<color>9cb296</color>
+		</rating>
+		
+		<textlist name="gamelist">
+			<selectorColor>000000</selectorColor>
+			<selectedColor>9cb296</selectedColor>
+			<primaryColor>00000055</primaryColor>
+			<secondaryColor>000000</secondaryColor>
+		</textlist>
+		
+		<image name="background" extra="true">
+			<path>./menu_background.png</path>
+		</image>
+
+		
+		<text name="players_label" extra="true">
+			<color>000000</color>
+		</text>
+
+		
+		<image name="player_box" extra="true">
+			<color>9cb296</color>		
+		</image>
+
+		<text name="publisher_label, developer_label, genre_label, rating_label, played_label" extra="true">
+			<color>9cb296</color>
+		</text>
+
+		<datetime name="md_releasedate">
+			<color>9cb296</color>
+		</datetime>	
+
+
+
+		<image name="left_window_border, right_window_border" extra="true">
+			<color>000000</color>
+		</image>
+		
+		<image name="left_window_body, right_window_body" extra="true">
+			<color>9cb296</color>
+		</image>
+		
+		
+		<image name="right_window_box, left_window_box" extra="true">
+			<color>00000022</color>
+		</image>
+
+		
+		<image name="bar_1, bar_2, bar_3, bar_4" extra="true">
+			<color>000000</color>
+		</image>		
+
+		
+		
+	
+
+	</view>
+	
+</theme>

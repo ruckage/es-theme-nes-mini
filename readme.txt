@@ -1,6 +1,6 @@
 Theme designed by Ruckage
-Version 2.23
-07/08/2017
+Version 2.3
+08/10/2017
 
 Theme based on and inspired by the look of the menus used on the NES Classic.
 
@@ -67,7 +67,17 @@ auto-lastplayed
 auto-allgames
 Dreamcast
 Sega 32x
+custom-collections
+pc
+game & watch
+amiga
+pc engine cd
+msx
+msx2
 
+
+08/10/2017
+Added 6 new systems (amiga, pc, msx, msx2, pcengine cd, game & watch), added custom-collections, added alternate snes-usa system, updated help images to show current ES fuctions.
 
 07/08/2017
 Added 2 new systems - Dreamcast and Sega 32x.
